@@ -2,9 +2,9 @@ import { LitElement, html, PropertyValueMap, nothing } from "lit";
 import { customElement, state, property } from "lit/decorators.js";
 import { styleMap } from "lit/directives/style-map.js";
 import { ifDefined } from "lit/directives/if-defined.js";
-import "@material/mwc-tab";
-import "@material/mwc-tab-bar";
-import "@material/mwc-ripple";
+import "/@material/mwc-tab";
+import "/@material/mwc-tab-bar";
+import "/@material/mwc-ripple";
 import {
   getLovelace,
   hasConfigOrEntityChanged,
