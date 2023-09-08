@@ -13,9 +13,9 @@ export default defineConfig(({ command, mode }) => {
           entryFileNames: "[name].js",
         },
         external: [
-          "@material/mwc-ripple",
-          "@material/mwc-tab",
-          "@material/mwc-tab-bar"
+          "/@material/mwc-ripple",
+          "/@material/mwc-tab",
+          "/@material/mwc-tab-bar"
         ]
       },
     },
