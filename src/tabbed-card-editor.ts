@@ -7,7 +7,8 @@ import {
   LovelaceCard,
 } from "custom-card-helpers";
 // import "@material/mwc-tab";
-// import "@material/mwc-tab-bar";
+import "@material/mwc-tab-bar/mwc-tab-bar";
+// import type {Ripple} from "@material/mwc-ripple";
 // import "@material/mwc-ripple";
 import { BoilerplateCardConfig } from "./types";
 import { customElement, state } from "lit/decorators.js";
