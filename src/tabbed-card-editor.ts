@@ -1,28 +1,16 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import {
   LitElement,
-  // html,
-  // TemplateResult,
-  // css,
-  // CSSResultGroup
 } from "lit";
 import {
-  // HomeAssistant,
-  // fireEvent,
   LovelaceCardEditor,
   LovelaceCard,
 } from "custom-card-helpers";
 // import "@material/mwc-tab";
 // import "@material/mwc-tab-bar";
 // import "@material/mwc-ripple";
-// import * as rip from "@material/mwc-ripple"
-// import { ScopedRegistryHost } from "@lit-labs/scoped-registry-mixin";
 import { BoilerplateCardConfig } from "./types";
 import { customElement, state } from "lit/decorators.js";
-// import { formfieldDefinition } from "../elements/formfield";
-// import { selectDefinition } from "../elements/select";
-// import { switchDefinition } from "../elements/switch";
-// import { textfieldDefinition } from "../elements/textfield";
 
 @customElement("tabbed-card-editor")
 export class TabbedCardEditor extends LitElement {
