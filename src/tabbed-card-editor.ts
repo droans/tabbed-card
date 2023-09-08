@@ -12,9 +12,10 @@ import {
   LovelaceCardEditor,
   LovelaceCard,
 } from "custom-card-helpers";
-import "/@material/mwc-tab";
-import "/@material/mwc-tab-bar";
-import "/@material/mwc-ripple";
+// import "@material/mwc-tab";
+// import "@material/mwc-tab-bar";
+// import "@material/mwc-ripple";
+// import * as rip from "@material/mwc-ripple"
 // import { ScopedRegistryHost } from "@lit-labs/scoped-registry-mixin";
 import { BoilerplateCardConfig } from "./types";
 import { customElement, state } from "lit/decorators.js";
