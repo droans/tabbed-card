@@ -15,6 +15,14 @@ jobs:
         uses: actions/setup-node@v3.8.1
         with:
           node-version: 18.17.0
-      - run: npm install
-      - run: npm run build
+      - name: NPM Install
+        run: npm install
+      - name: NPM build
+        run: npm run build
+      - name: Save output
+        uses: actions/upload-artifact@v3
+        with:
+          name: file-build
+          path: dist/tabbed-card.js
+
 
